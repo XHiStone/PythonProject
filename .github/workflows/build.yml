@@ -30,7 +30,7 @@ jobs:
       - name: Build macOS Intel app
         run: |
           export PATH="$RUNNER_TEMP/conda/envs/py313_x64/bin:$PATH"
-          pyinstaller --onefile --windowed main.py
+          arch -x86_64 pyinstaller --onefile --windowed main.py
 
       - name: Create macOS dmg
         run: |
