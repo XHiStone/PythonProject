@@ -1,11 +1,10 @@
 # You can edit this code and run it right here in the browser!
 # First we'll import some turtles and shapes:
-import turtle
 from turtle import *
 from shapes import *
 
 
-screen = turtle.Screen()
+screen = Screen()
 screen.setup(width=800, height=600)
 screen.bgcolor("white")
 
@@ -26,5 +25,5 @@ tommy.color("black")
 tommy.write("Teach With Code!", None, "center", font=("Arial", 16, "bold"))
 tommy.goto(0,-80)
 
-turtle.done()
+done()
 # Try changing draw_circle to draw_square, draw_triangle, or draw_star
