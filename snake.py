@@ -14,7 +14,7 @@ length_of_snake = 1
 
 dis = pygame.display.set_mode((width, height))
 pygame.display.set_caption("贪吃蛇游戏")
-font = pygame.font.SysFont("stheitilight", 30)
+font = pygame.font.Font("font.ttf", 30)
 
 
 min = 0
